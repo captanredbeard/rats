@@ -62,4 +62,10 @@
   </Content>
 </ItemGroup>
 
+<ItemGroup>
+  <Folder Include="assets\rats\shapes\block\" />
+  <Folder Include="src\itemtypes\" />
+  <Folder Include="src\system\" />
+</ItemGroup>
+
 </Project>

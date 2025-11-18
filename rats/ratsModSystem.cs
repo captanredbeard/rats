@@ -1,4 +1,6 @@
-﻿using Vintagestory.API.Client;
+﻿using rats.src.blocktypes;
+using rats.src.entities;
+using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Config;
 using Vintagestory.API.Server;
@@ -11,7 +13,9 @@ namespace rats
         // Useful for registering block/entity classes on both sides
         public override void Start(ICoreAPI api)
         {
-            Mod.Logger.Notification("Hello from template mod: " + api.Side);
+            var modID = Mod.Info.ModID;
+
+            api.RegisterBlockClass("BlockRatDen", typeof(BlockRatDen));
         }
 
         public override void StartServerSide(ICoreServerAPI api)
