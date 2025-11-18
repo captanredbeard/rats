@@ -1,0 +1,13 @@
+{
+  "code": "ratden",
+  "shape": { "base": "block/ratden" },
+  
+  "attributes": {
+    
+  },
+  "blockmaterial": "Stone",
+  "creativeinventory": {
+    "general": ["*"],
+    "rats": [ "*" ]
+  }
+}

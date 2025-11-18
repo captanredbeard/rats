@@ -1,0 +1,12 @@
+{
+  "code": "cagetrap",
+  
+  "attributes": {
+    
+  },
+  "blockmaterial": "Wood",
+  "creativeinventory": {
+    "general": ["*"],
+    "rats": [ "*" ]
+  }
+}

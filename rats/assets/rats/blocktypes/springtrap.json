@@ -1,0 +1,12 @@
+{
+  "code": "springtrap",
+
+  "attributes": {
+
+  },
+  "blockmaterial": "Wood",
+  "creativeinventory": {
+    "general": [ "*" ],
+    "rats": [ "*" ]
+  }
+}
